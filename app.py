@@ -143,7 +143,11 @@ if st.button("🔍 Score This Lead", use_container_width=True, type="primary"):
                 else:
                     input_data[col] = 0
 
-    input_df = pd.DataFrame([input_data])[feature_names]
+     input_df = pd.DataFrame([input_data])
+    for col in feature_names:
+        if col not in input_df.columns:
+            input_df[col] = 0
+    input_df = input_df[feature_names]
 
     # Predict
     raw_conv = model_conv.predict(input_df)[0]
