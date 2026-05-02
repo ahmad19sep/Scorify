@@ -4,7 +4,7 @@ Scorify is a machine learning platform that predicts lead conversion probability
 
 ## Live Demo
 
-[https://scorify.streamlit.app](https://scorify-pfrfczc4cvsrwznwqmkmxr.streamlit.app/)
+[https://scorify.streamlit.app](https://apexpay-frxrsgfvpuk9qw8qryercx.streamlit.app/)
 
 ## What It Does
 
